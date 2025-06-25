@@ -1,0 +1,14 @@
+/* Com essa classe criamos o tabuleiro */
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 60px); /* 3 colunas de 60px */
+  gap: 5px; /* Com espaco de 5px entre as casas */
+  margin-bottom: 10px; /* Cria um espaço abaixo do tabuleiro para não ficar grudado com o botão de reiniciar*/
+}
+/* Com essa classe definimos o tamanho das casas e o tamanho dos simbolos X e O dentro do tabuleiro */
+/* cada casa tem 60px de altura e largura e o tamanho da  letra sendo 24px*/
+.casa {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+}
